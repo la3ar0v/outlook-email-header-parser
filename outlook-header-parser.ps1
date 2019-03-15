@@ -1,5 +1,5 @@
 ﻿##### The script uses MS Outlook API to parse the MSG files via "http://schemas.microsoft.com/mapi/proptag/0x007D001E" #####
-
+##Hristiyan Lazarov##
 # MSG files are enumerated in a current directory
 $files = Get-ChildItem -Filter *.msg | % {$_.FullName}
 # Enumerated files are parsed
